@@ -40,7 +40,7 @@ export default class DrawDialog extends Vue {
   private drawboard: Drawboard | null = null;
   private btn_names = [
     '画框', '画圆', '箭头', '直线', '画笔', '输入',
-    '撤销', '清屏', '正确', '错误', 'A+', 'A-', '旋转',
+    '撤销', '清屏', '正确', '错误', '优', '良', '旋转',
   ];
   private current_button_index = 4;
    // 颜色
@@ -426,7 +426,7 @@ clearfix()
   .draw_control
     height 90px
     width 100%
-    background-color #26bf80
+    background-color #409eff
     user-select none
     clearfix()
   .draw_control_item
@@ -438,6 +438,6 @@ clearfix()
     cursor pointer
     background-color transparent
     &:hover, &.active
-      background-color #21a971
+      background-color #66b1ff
 
 </style>

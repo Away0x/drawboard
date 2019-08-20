@@ -9,8 +9,35 @@ h1,h2,h3,h4,h5,h6
 ul, li
   list-style none
 
+button,input,select,textarea
+  margin 0
+
 html
   box-sizing border-box
+
+*, *before, *after
+  box-sizing inherit
+
+img,embed,iframe,object,audio,video
+  height auto
+  max-width 100%
+
+iframe
+  border 0
+
+table
+  border-collapse collapse
+  border-spacing 0
+
+td,th
+  padding 0
+  text-align left
+
+body
+  height 100%
+  position relative
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
 
 *, *:before, *:after
   box-sizing border-box
