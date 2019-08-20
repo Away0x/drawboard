@@ -1,0 +1,45 @@
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6
+  margin 0
+  padding 0
+
+h1,h2,h3,h4,h5,h6
+  font-size 100%
+  font-weight normal
+
+ul, li
+  list-style none
+
+html
+  box-sizing border-box
+
+*, *:before, *:after
+  box-sizing border-box
+
+*
+  font-family 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'Avenir', Helvetica, Arial, sans-serif
+
+i
+  font-style normal
+
+a
+  text-decoration none
+  color #262626
+
+::-webkit-scrollbar
+  width 8px
+  height 9px
+::-webkit-scrollbar-track-piece
+  background-color transparent
+  -webkit-border-radius 20px
+::-webkit-scrollbar-thumb
+  height 10px
+  -webkit-transform rotate3d(0,0,0,0)
+  transform rotate3d(0,0,0,0)
+  transition background-color 100ms ease-out
+  background-color rgba(#262626, 0.3)
+  border-radius 20px
+  &:vertical, &:horizontal
+    width 8px
+  &:hover
+    background-color rgba(#262626, 0.4)
+    width 8px
