@@ -425,7 +425,7 @@ export default class DrawDialog extends Vue {
 
   /** 绘制 */
   public draw(str: string | string[], img = true) {
-    const win_height = document.body.clientHeight - 400;
+    const win_height = window.screen.height - 400;
     const win_width = document.body.clientWidth;
     this.canvas_wh = { width: win_width, height: win_height };
     this.draw_content_height = win_height;
