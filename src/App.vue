@@ -29,7 +29,7 @@ export default class App extends Vue {
   };
   private section2: Data = {
     img: true,
-    data: '/images/a.jpg',
+    data: `${process.env.NODE_ENV === 'production' ? '/drawboard' : ''}/images/a.jpg`,
   };
 
   /* ------------------------ WATCH ------------------------ */
